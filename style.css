@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    padding: 50px;
+    background-color: #18191C;
+    color: white;
+    font-size: 18px;
+}
+
+
+form{
+    width: 800px;
+    margin: auto;
+}
+
+
+.input {
+    flex-shrink: 0;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 300;
+}
+
+
+.input-label, .radio-set, .radio-legend {
+    margin-bottom: 25px;
+}
+
+
+.input-label, .radio-set {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.input, .radio-container {
+    width: 470px;
+}
+
+
+.radio-label:nth-last-child(n + 2) {
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+
+.input, .radio-container {
+    width: 470px;
+}
+
+
+.input-title, .radio-legend {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+    margin-right: 35px;
+}
+
+
+.radio-title {
+    font-size: inherit;
+}
+
+
+.radio-set{
+    border: none;
+}
+
+
+.input-textarea {
+    min-width: 470px;
+    max-width: 470px;
+    min-height: 100px;
+    max-height: 250px;
+}
+
+
+.radio-label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.radio {
+    width: 25px;
+    height: 25px;
+    opacity: 0;
+    margin-right: 15px;
+}
+
+
+.button-blue {
+    background-color: #2E9AFF;
+}
+
+
+.button-orange {
+    background-color: #FF8630;
+}
+
+
+.button {
+    min-width: 210px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding: 8px 15px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.button + .button {
+    margin-left: 50px;
+}
+
+
+.radio-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: calc(50% - 12px);
+    width: 25px;
+    height: 25px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+

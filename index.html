@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork_Lesson 5</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <form action="test">
+    <label class="input-label">
+      <span class="input-title">Текстовое поле в одну строчку</span>
+      <input class="input" type="text" size="40">
+    </label>
+
+    <fieldset class="radio-set">
+      <span class="radio-legend">Радио кнопки</span>
+      <div radio-container>
+        <label class="radio-label">
+          <input class="radio" type="radio" name="browser" value="ie" id="ie">
+          <span class="radio-title">Вариант 1</span>
+        </label>
+        <label class="radio-label">
+          <input class="radio" type="radio" name="browser" value="opera" id="opera">
+          <span class="radio-title">Вариант 2</span>
+        </label>
+        <label class="radio-label">
+          <input class="radio" type="radio" name="browser" value="firefox" id="firefox">
+          <span class="radio-title">Вариант 3</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <label class="input-label">
+      <span class="input-title">Большое текстовое поле:</span>
+      <textarea class="input input-textaria" name="comment" cols="40" rows="3"></textarea>
+    </label>
+
+    <div class="buttons">
+      <input type="reset" value="Очистить" class="button button-blue">
+      <input type="submit" value="Отправить" class="button button-orange">
+    </div>
+  </form>
+</body>
+</html>
